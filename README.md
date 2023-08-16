@@ -20,8 +20,8 @@ Esse script é uma solução útil para melhorar o engajamento do usuário em p�
 
   // Configurações do Pop-up
   const popUpId = "#e_0000000000"; // ID do elemento pop-up
-  const enablePopupOnExit = true; // False desabilita o popup ao sair com o mouse
-  const enablePopupByTime = true; // False desabilita o popup por tempo
+  const enablePopupOnExit = true; // "False" desabilita o popup ao sair com o mouse
+  const enablePopupByTime = true; // "False" desabilita o popup por tempo
   const tempo_abrir = 5; // Tempo em segundos para abrir o pop-up
   const days = 0; // Dias para o pop up abrir novamente
   const hours = 0; // Horas para o pop up abrir novamente
