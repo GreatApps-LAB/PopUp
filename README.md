@@ -1,16 +1,11 @@
 # PopUp
 
-### As configurações do pop-up podem ser facilmente ajustadas usando várias opções fornecidas no código:
-
-#### Definição do ID do elemento pop-up (popUpId).
-
-Possibilidade de ativar/desativar o pop-up quando o cursor do mouse sai da página (enablePopupOnExit).
-Opção de ativar/desativar o pop-up com base em um intervalo de tempo (enablePopupByTime).
-Especificação do intervalo de tempo em segundos para abrir o pop-up (tempo_abrir).
-Definição dos intervalos de tempo em dias, horas, minutos e segundos em que o pop-up pode ser reativado (days, hours, minutes, seconds).
-O código se utiliza de funções como AbrirPopUp para exibir o conteúdo do pop-up com base em condições específicas. Por exemplo, ele verifica se o usuário interagiu anteriormente com a página ou se os intervalos de tempo especificados foram cumpridos. Além disso, o script monitora eventos de saída do cursor do mouse e a largura da janela para ativar o pop-up.
-
 Esse script é uma solução útil para melhorar o engajamento do usuário em páginas da web, permitindo a exibição de conteúdo relevante por meio de pop-ups baseados em comportamento de saída ou intervalos de tempo predefinidos.
+
+
+### Como adicionar códigos na plataforma
+https://github.com/GreatApps-LAB/PopUp/assets/99222756/446b66a2-880e-456b-b797-0ed630d41d85
+
 
 ```html
 <script>
@@ -22,11 +17,11 @@ Esse script é uma solução útil para melhorar o engajamento do usuário em p�
   const popUpId = "#e_0000000000"; // ID do elemento pop-up
   const enablePopupOnExit = true; // "False" desabilita o popup ao sair com o mouse
   const enablePopupByTime = true; // "False" desabilita o popup por tempo
-  const tempo_abrir = 5; // Tempo em segundos para abrir o pop-up
-  const days = 0; // Dias para o pop up abrir novamente
+  const tempo_abrir = 10; // Tempo em segundos para abrir o pop-up
+  const days = 1; // Dias para o pop up abrir novamente
   const hours = 0; // Horas para o pop up abrir novamente
   const minutes = 0; // Minutos para o pop up abrir novamente
-  const seconds = 5; // Segundos para o pop up abrir novamente
+  const seconds = 0; // Segundos para o pop up abrir novamente
 
   // Função AbrirPopUp
   window.AbrirPopUp = function (id_elemento) {
