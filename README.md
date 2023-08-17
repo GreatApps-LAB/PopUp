@@ -9,11 +9,13 @@ https://github.com/GreatApps-LAB/PopUp/assets/99222756/446b66a2-880e-456b-b797-0
 
 ```html
 <script>
+
   // Name: PopUp for Greatpages.
   // Version: 1.0.0
   // Copyright: Claiton Lemes
 
-  // Configurações do Pop-up
+  // 🧰 Configurações do Pop-up --------
+
   const popUpId = "#e_0000000000"; // ID do elemento pop-up
   const enablePopupOnExit = true; // "False" desabilita o popup ao sair com o mouse
   const enablePopupByTime = true; // "False" desabilita o popup por tempo
@@ -22,6 +24,8 @@ https://github.com/GreatApps-LAB/PopUp/assets/99222756/446b66a2-880e-456b-b797-0
   const hours = 0; // Horas para o pop up abrir novamente
   const minutes = 0; // Minutos para o pop up abrir novamente
   const seconds = 0; // Segundos para o pop up abrir novamente
+
+  // 🧰 Configurações do Pop-up --------
 
   // Função AbrirPopUp
   window.AbrirPopUp = function (id_elemento) {
